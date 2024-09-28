@@ -119,15 +119,16 @@ bool checkPalindrom2(Node* head){
     //TC: O(N)
 }
 int main(){
-   int arr[5] = { 1,2,3,2,1};
+//    int arr[5] = { 1,2,3,2,1};
+   int arr[5] = { 1,1,2,1};
 
    Node* head = arrToLL(arr, 5);
     print(head);
 
-    // int ans = checkPalindrom(head);
-    int ans2 = checkPalindrom2(head);
-    // cout<<"ll is palindrom res: "<<ans<<endl;
-    cout<<"ll is palindrom res: "<<ans2<<endl;
+    int ans = checkPalindrom(head);
+    // int ans2 = checkPalindrom2(head);
+    cout<<"ll is palindrom res: "<<ans<<endl;
+    // cout<<"ll is palindrom res: "<<ans2<<endl;
 
 
 
